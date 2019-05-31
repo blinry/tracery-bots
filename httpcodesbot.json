@@ -1,0 +1,24 @@
+{
+"firstdigit": ["1", "2", "3", "4", "5"],
+"seconddigit": ["0", "1", "2", "3", "4", "5", "9"],
+"digit": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
+"number": ["#firstdigit##seconddigit##digit#"],
+
+"simplething": ["Content", "Range", "Payload", "Length", "Entity", "Upgrade", "Request", "Gateway", "Timeout", "Information", "Choice", "Payment", "Expectation", "Teapot", "Precondition", "Header", "Field", "Loop", "Network", "Authentication", "Hint", "Protocol", "Other", "Proxy", "Redirect", "Method", "Error", "Conflict", "URI", "Media", "Type", "Dependency", "Service", "Version", "HTTP", "Variant", "Storage", "Checkpoint", "Token", "Bandwidth", "Limit", "SSL", "Certificate", "Login", "Response", "Client", "Web", "Server", "Handshake"],
+
+"thing": ["#simplething# #simplething#", "#simplething#", "#property# #simplething#"],
+
+"property": ["Long", "Short", "Large", "Authoritative", "Non-Authoritative", "Partial", "Permanent", "Non-Permanent", "Authorized", "Unauthorized", "Misdirected", "Unprocessable", "Early", "Temporary", "Unsupported", "Supported", "Internal", "Invalid", "Valid", "Unknown", "Unreachable"],
+
+"adverb": ["Permanently", "Temporarily", "Badly", "Repeatedly", "Partially"],
+
+"verb": ["Reset", "Repeat", "Use", "Switch", "Continue", "See", "Modify", "Redirect", "Require", "Allow", "Accept", "Detect", "Find", "Create", "Move", "Lock", "Implement", "Extend", "Expire", "Enhance", "Block", "Exceed", "Retry"],
+
+"verbing": ["Reseting", "Repeating", "Using", "Switching", "Continuing", "Modifying", "Redirecting", "Requiring", "Allowing", "Acceting", "Detecting", "Finding", "Creating", "Moving", "Locking", "Implementing", "Extending", "Expiring", "Blocking", "Exceeding"],
+
+"verbed": ["OK", "Detected", "Found", "Allowed", "Required", "Created", "Accepted", "Used", "Moved", "Forbidden", "Acceptable", "Gone", "Failed", "Satisfiable", "Locked", "Implemented", "Unavailable", "Extended", "Bad", "Gone", "Fine", "Expired", "Failure", "Blocked", "Exceeded", "Frozen", "Occurred"],
+
+"explanation": ["#thing#", "#thing# Not #verbed#", "No #thing#", "Too Many #thing#s", "Insufficient #thing#", "#thing# Too #property#", "#thing# #verbed#", "#property# #thing#", "#verb# #thing#", "#verbing# #thing#", "Already #verbed#", "Multiple #thing#s", "#verbed# #adverb#", "Not #verbed#", "#verbed#", "I'm #thing.a#", "I'm #verbed#", "#verbed# For Legal Reasons", "#thing# Is #property#", "#verbed# By #thing#"],
+
+"origin": ["#number# #explanation#"]
+}
